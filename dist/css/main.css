@@ -18,7 +18,7 @@ body {
 .container .main .box {
   background-color: hsl(263, 55%, 52%);
   padding: 2rem 1.6rem;
-  border-radius: 1rem;
+  border-radius: 0.8rem;
 }
 .container .main .box .person-info {
   display: flex;
@@ -64,6 +64,9 @@ body {
   }
 }
 @media (min-width: 1000px) {
+  .container {
+    padding: 2.5rem 3rem;
+  }
   .container .main {
     display: grid;
     grid-template-columns: repeat(4, 1fr);

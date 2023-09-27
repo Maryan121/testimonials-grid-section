@@ -18,7 +18,7 @@ body{
         & .box{
             background-color: $Moderate-violet;
             padding: 2rem 1.6rem;
-            border-radius: 1rem;
+            border-radius: .8rem;
             & .person-info{
                 display: flex;
                 align-items: center;
@@ -78,6 +78,7 @@ body{
 }
 @media(min-width: 1000px){
     .container{
+        padding: 2.5rem 3rem;
         & .main{
             @include horizentalGrid;
             & .box{
